@@ -1,0 +1,318 @@
+body{
+	background-color: black;
+	font-family:"Lora", sans-serif;
+	line-height: 26px;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#contentWrapper{
+	width: 1128px;
+	margin: auto;
+}
+
+.row{
+	max-width:1128px;
+	margin: 0px auto;
+
+}
+
+.nav{
+	width:100%;
+	height:70px;
+	background-color: #081A2F;
+	position: relative;
+	top: 0px;
+	box-shadow: 0 2px 3px rgba(1, 2, 2, 0.2);
+	-moz-box-shadow: 0 2px 3px rgba(1, 2, 2, 0.2);
+	-webkit-box-shadow: 0 2px 3px rgba(1, 2, 2, 0.2);
+	z-index: 100;
+}
+
+.nav a{
+	font-family:"Lora", sans-serif;
+	text-decoration: none;
+	font-size:16px;
+	padding: 0px 10px;
+	margin: 0px 10px;
+	color: white;
+	display: inline-block;
+	line-height: 70px;
+}
+
+#navbar{
+	float:right;
+}
+
+.title{
+    font-family:"Open Sans Condensed", sans-serif;
+    color: white;
+    font-size: 40px;
+    margin:18px 0px;
+ 	float:left;
+}
+
+.highlight{
+    background-color:#063851;
+    font-family:"Lora", serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    font-size:30px;
+    padding:2px 10px 2px 10px;
+    margin:15px 60px 15px 5px;
+    float:left; 
+}
+
+.headline h1{
+	font-size: 40px;
+	font-family: "Open Sans Condensed", sans-serif;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+.headline2 h1{
+	font-size: 50px;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: left;
+	color: white;
+}
+
+.grey{
+	width: 100%;
+	background-color: #2E3138;
+}
+
+
+#home{
+	padding: 0 0 0 0;
+	position: relative;
+}
+
+#home p{
+	font-size: 20px;
+	font-family: "Lora", sans-serif;
+	line-height: 26px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	z-index: 10;
+}
+
+
+#homeImage img{
+	width: 100%;
+	height: 650px;
+	padding: 0 0 0 0;
+	position: absolute;
+
+}
+
+
+section{
+	min-height: 700px;
+	padding: 100px 0;
+}
+
+.navOn{
+	background-color: #063851;
+}
+
+.centeredText{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 10;
+}
+
+.centeredText h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.centeredText p{
+	font-size: 20px;
+	font-family: "Lora", sans-serif;
+	line-height: 26px;
+	color: white;
+	text-align: center;
+}
+
+.centeredText h3{
+	font-size: 20px;
+	line-height: 26px;
+	color: white;
+	font-family: "Lora", sans-serif;
+	text-align: center;
+}
+
+.scrollDown{
+	transform: translate(-50%,100%);
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid #fff;
+}
+
+.scrollDown:hover{
+	cursor: pointer;
+	border-top: 40px solid #063851;
+}
+
+.scrollDown1{
+	transform: translate(-50%,100%);
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid white;
+}
+
+.scrollDown1:hover{
+	cursor: pointer;
+	border-top: 40px solid white;
+}
+
+#events{
+	margin-top: px;
+	background-color: #000;
+}
+
+.eventBox {
+	background-color: white;
+	margin: 0 12px;
+	text-align: center;
+	list-style: none;
+	font-size: 30px;
+	line-height: 34px;
+	height: 580px;
+	position: relative;
+	width: 350px;
+	right: 10px;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 30px;
+	float: left;
+}
+
+.eventBox li{
+	background-color: #EF493F;
+	color: white;
+	line-height: 50px;
+	width: 350px;
+	margin-right: 100px;
+	margin-bottom: 24px;
+
+}
+
+#eventIMG img{
+	padding-top: 24px;
+	position: relative;
+	right: 15px;
+	top: 5px;
+	margin-bottom: 0px;
+}
+
+#eventText p{
+	text-align: center;
+	font-family: "Lora", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#buyTix{
+	text-align: center;
+	line-height: 30px;
+	background-color: #841B35;
+	color: white;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 24px;
+	width: 140px;
+	margin: auto;
+}
+
+#contact{
+	background-color: #262626;
+	text-align: center;
+
+}
+
+.contactText{
+	font-family: "Lora", sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: white;
+}
+
+.contactBox{
+	width: 360px;
+	height: 150px;
+	background-color: white;
+	margin-top: 10px;
+	float: left;
+}
+
+#phone{
+	margin-right: 20px;
+}
+
+#email{
+	margin-right: 20px;
+}
+
+
+.contactTop{
+	background-color: #063851;
+	width: 360px;
+	height: 40px;
+	text-align: center;
+	font-family: "Open Sans Condensed", sans-serif;
+	color: white;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.contactBottom{
+	color: black;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: "Lora", sans-serif;
+}
+
+.contactChat{
+	background-color: #841B35;
+	margin-left: 100px;
+	padding: 5px;
+	font-family: "Open Sans Condensed", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 24px;
+	float: left;
+	border-radius: 3px;
+}
+
+.fixedNav{
+	position: fixed;
+}
+
+
+
+
+
+
+
+
