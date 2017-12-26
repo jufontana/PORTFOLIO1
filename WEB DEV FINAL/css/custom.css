@@ -1,0 +1,314 @@
+body{
+	background-color: #FFFFFF;
+	font-family:"Futura", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.textContainer{
+	width: 1280px;
+	margin: auto;
+}
+
+.row{
+	max-width:1128px;
+	margin: 0px auto; 
+}
+
+.row1{
+	width: 1128px;
+	margin: 0px aut0;
+}
+
+
+
+.title{
+    font-family:"Dancing Script", sans-serif;
+    font-weight: 700;
+    color:#000000;
+    font-size: 30px;
+    margin:18px 0px;
+ 	float:left;
+}
+
+
+.title span{
+	color: #606060;
+}
+
+.highlight{
+    background-color:#FE5A00;
+    font-family:"Oswald", sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    font-size:30px;
+    padding:2px 10px 2px 10px;
+    margin:15px 60px 15px 5px;
+    float:left; 
+}
+
+
+.grey{
+	width:100%;
+	background-color:#2E3138;
+	color: #fff;
+}
+
+.black{
+	width:100%;
+	background-color:#000000;
+	color:#ffffff;
+}
+
+section{
+	min-height: 700px;
+	padding: 100px 0;
+	background-color: #fff;
+}
+
+
+.navOn{
+	background-color: gainsboro;
+	text-transform: uppercase;
+}
+
+#pageHeader{
+	width: 100%;
+	height: 180px;
+}
+
+.centeredText{
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	z-index: 10;
+	/* Moves the origin from the top-left corner to the dead center */
+	-webkit-transform: translate(-50%,-50%); /* Chrome, Safari, Opera */
+	transform: translate(-50%,-50%);
+
+
+}
+
+.centeredText h1{
+	font-size: 100px;
+	color: black;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.centeredText h3{
+	font-size: 24px;
+	color: black;
+	font-family: "Dancing Script", sans-serif;
+	font-weight: 200;
+	text-align: center;
+	-webkit-transform: translate(1%, -300%);
+
+}
+
+#jamsOne img{
+	height: 250px;
+	width: 250px;
+	margin: -100px 10px 10px 5px;
+}
+
+#jamsTwo img{
+	height: 250px;
+	width: 250px;
+	margin: 10px 10px 10px 5px;
+}
+
+#jamsThree img{
+	height: 250px;
+	width: 250px;
+	margin: 10px 10px 0px 5px;
+}
+
+#jamsFeat img{
+	height:220px;
+	width: 220px;
+	margin: auto;
+}
+
+
+.jamsPics1{
+	text-align: center;
+	top: 15%;
+	width: 100%;
+}
+
+.jamsPics2{
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: -35px;
+}
+
+.jamsPics3{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+}
+
+.mildHigh img{
+	height: 450px;
+	width: 450px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.mildHigh{
+	height: 500px;
+	width: 470px;
+	float: left;
+	margin-left: 12px;
+}
+
+.badBad img{
+	float: right;
+	height: 450px;
+	width: 450px;
+	margin-top: 5px;
+	margin-right: 35px;
+}
+
+.badBad{
+	height: 450px;
+	float: right;
+
+}
+
+
+#text1{
+	height: 420px;
+	width: 560px;
+	background-color: gainsboro;
+	float: right;
+	margin-right: 38px;
+	margin-top: 5px;
+	padding: 15px;
+}
+
+#text2{
+	height: 420px;
+	width: 560px;
+	background-color: gainsboro;
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+	padding: 15px;
+}
+
+
+.text b{
+	font-size: 44px;
+	line-height: 44px;
+	font-family: "Oswald", sans-serif;
+}
+
+.text i{
+	font-size: 20px;
+	line-height: 44px;
+	font-family: "Futura", sans-serif;
+}
+
+.text p{
+	font-size: 14px;
+	font-family: "Futura", sans-serif;
+}
+
+.text a{
+	text-decoration: none;
+	color: red;
+}
+
+#nav{
+	padding: 25px auto;
+	float: left;
+	height: 80px;
+	width: 190px;
+	background-color: gainsboro;
+	margin: 10px 10px 0px 10px auto;
+	text-decoration: none;
+	position:fixed;
+	font-size: 25px;
+	line-height: 80px;
+
+}
+
+#nav a{
+	color: black;
+	text-decoration: none;
+	position:fixed;
+	margin:auto;
+}
+
+
+.contentWrapper{
+	margin-top: 120px;
+	width: 1280px;
+}
+
+.scrollDown{
+	transform: translate(-50%,-50%);
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid #fff;
+}
+
+.scrollDown:hover{
+	cursor: pointer;
+	border-top: 40px solid #FE5A00;
+}
+
+#beatHead{
+	font-family: "Oswald", sans-serif;
+	color: white;
+	font-size: 60px;
+	line-height: 60px;
+	margin: auto;
+	text-align: center;
+	margin-top: -150px;
+}
+
+#beatHead h3{
+	font-family: "Dancing Script", sans-serif;
+	color: white;
+	font-size: 30px;
+	line-height: 30px;
+	margin: auto;
+	text-align:center;
+	margin-top: -60px;
+	margin-bottom: 20px;
+}
+
+#beatlesImg img{
+	width: 1128px;
+}
+
+.white{
+	margin-top: -50px;
+}
+
+#beatText{
+	font-family: "Futura", sans-serif;
+	font-size: 14px;
+	margin: auto;
+}
+
+#beatText p{
+	text-align: center;
+	width: 1128px;
+	margin:auto;
+}
+
+#beatText i{
+	margin: auto;
+}
